@@ -13,40 +13,27 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 1. Generate SVG Pac-Man
+      # 1. Generate SVG Pac-Man Bawaan (Versi Asli yang Lengkap Garis Labirinnya)
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Hapus style bawaan & ganti dengan CSS Dark Mode
-      - name: replace SVG style tag for dark mode
+      # 2. Inversi Warna SVG Secara Sempurna Menggunakan Filter CSS Internal
+      - name: invert SVG colors for dark mode
         run: |
           python3 -c "
-          import re
-
           file_path = 'dist/pacman-contribution-graph.svg'
           with open(file_path, 'r', encoding='utf-8') as f:
               content = f.read()
 
-          # 1. CSS Dark Mode baru yang super tegas
-          custom_css = '''<style>
-            rect { fill: #161b22; stroke: #0d1117; }
-            rect[fill='#216e39'], rect[fill='#30a14e'], rect[fill='#40c463'], rect[fill='#9be9a8'] { stroke: #0d1117; }
-            .day, .ContributionCalendar-day, rect.day { fill: #161b22 !important; stroke: #0d1117 !important; }
-            path, line { stroke: #388bfd !important; stroke-width: 2px !important; }
-            text { fill: #c9d1d9 !important; }
-          </style>'''
-
-          # 2. Ganti tag <style>...</style> bawaan dengan CSS buatan kita
-          if '<style>' in content and '</style>' in content:
-              content = re.sub(r'<style>.*?</style>', custom_css, content, flags=re.DOTALL)
-          else:
-              content = content.replace('</svg>', f'{custom_css}</svg>')
-
-          # 3. Sapu bersih atribut inline fill/stroke putih jika ada
-          content = re.sub(r'fill=[\"\']#(ffffff|fff|ebedf0|f0f0f0|eeeeee)[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
-          content = re.sub(r'fill=[\"\']white[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
+          # Injeksi style filter invert langsung ke elemen <svg> utama
+          # filter: invert(0.92) hue-rotate(180deg) akan membalikkan elemen putih ke gelap
+          # dan menjaga kontras garis labirin serta warna hantu/pacman
+          dark_style = '<style>rect, path, line, text { filter: invert(0.92) hue-rotate(180deg); }</style>'
+          
+          # Masukkan style tepat di awal tag SVG
+          content = content.replace('</svg>', f'{dark_style}</svg>')
 
           with open(file_path, 'w', encoding='utf-8') as f:
               f.write(content)
