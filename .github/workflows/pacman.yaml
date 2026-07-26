@@ -19,37 +19,58 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Re-engineer Warna SVG untuk Dark Mode secara Presisi
-      - name: precision dark mode conversion
+      # 2. Global Dark Mode Color Conversion (fixes static attrs + <animate> values)
+      - name: dark mode color conversion
         run: |
-          python3 -c "
+          python3 << 'DARKMODE_SCRIPT'
           import re
 
           file_path = 'dist/pacman-contribution-graph.svg'
           with open(file_path, 'r', encoding='utf-8') as f:
               content = f.read()
 
-          # --- 1. UBAH KOTAK-KOTAK KECIL KOSONG (DAY) KE DARK MODE (#161b22) ---
-          # Tangkap semua variasi warna putih & abu-abu terang (Hex & RGB)
-          light_patterns = r'(#ffffff|#fff|#ebedf0|#f0f0f0|#eeeeee|#e1e4e8|#d1d5da|white|rgb\(235,\s*237,\s*240\)|rgb\(240,\s*240,\s*240\)|rgb\(255,\s*255,\s*255\))'
-          
-          # Timpa nilai 'fill' dan 'stroke' dari semua kotak terang
-          content = re.sub(r'fill=[\"\']' + light_patterns + r'[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
-          content = re.sub(r'stroke=[\"\']' + light_patterns + r'[\"\']', 'stroke=\"#0d1117\"', content, flags=re.IGNORECASE)
-          content = re.sub(r'fill:\s*' + light_patterns, 'fill: #161b22', content, flags=re.IGNORECASE)
-          content = re.sub(r'stroke:\s*' + light_patterns, 'stroke: #0d1117', content, flags=re.IGNORECASE)
+          # =================================================================
+          # GLOBAL COLOR MAP: light-mode hex -> dark-mode hex
+          # This replaces colors EVERYWHERE in the SVG, including inside
+          # <animate values="..."> which the old script missed entirely.
+          # Green contribution levels are NOT mapped, so they stay intact.
+          # =================================================================
+          COLOR_MAP = {
+              '#ebedf0': '#161b22',   # empty day boxes -> dark grid cell
+              '#f0f0f0': '#161b22',
+              '#eeeeee': '#161b22',
+              '#e1e4e8': '#161b22',
+              '#d1d5da': '#161b22',
+              '#c6c6c6': '#161b22',
+              '#ffffff': '#0d1117',   # pure white -> dark background
+              '#fff':    '#0d1117',
+          }
 
-          # --- 2. PERTEGAS GARIS LABIRIN PAC-MAN (#187bcd) ---
-          # Cari garis labirin (stroke hitam/gelap atau stroke polos) dan ubah jadi Biru Neon Pac-Man
-          content = re.sub(r'stroke=[\"\']#(000000|000|333333|222222|111111)[\"\']', 'stroke=\"#187bcd\" stroke-width=\"1.8\"', content, flags=re.IGNORECASE)
-          content = re.sub(r'stroke:\s*#(000000|000|333333|222222|111111)', 'stroke: #187bcd; stroke-width: 1.8px', content, flags=re.IGNORECASE)
+          # --- 1. Replace all mapped colors globally (case-insensitive) ---
+          for old_color, new_color in COLOR_MAP.items():
+              content = re.sub(re.escape(old_color), new_color, content, flags=re.IGNORECASE)
 
-          # --- 3. UBAH TEKS BULAN/HARI BLA-BLA-BLA BIKIN TERANG (#c9d1d9) ---
-          content = re.sub(r'<text([^>]+)fill=[\"\']#(000000|000|333333)[\"\']', r'<text\1fill=\"#c9d1d9\"', content, flags=re.IGNORECASE)
+          # --- 2. Replace CSS/SVG 'white' keyword ---
+          content = re.sub(r'\bwhite\b', '#0d1117', content, flags=re.IGNORECASE)
+
+          # --- 3. Replace rgb() variants of white/light grey ---
+          content = re.sub(r'rgb\(\s*255\s*,\s*255\s*,\s*255\s*\)', '#0d1117', content)
+          content = re.sub(r'rgb\(\s*235\s*,\s*237\s*,\s*240\s*\)', '#161b22', content)
+          content = re.sub(r'rgb\(\s*240\s*,\s*240\s*,\s*240\s*\)', '#161b22', content)
+
+          # --- 4. Fix text labels: dark text -> light grey for readability ---
+          content = re.sub(
+              r'(<text[^>]+)fill="(?:#000000|#000|#333333|#333)"',
+              r'\1fill="#c9d1d9"',
+              content,
+              flags=re.IGNORECASE
+          )
 
           with open(file_path, 'w', encoding='utf-8') as f:
               f.write(content)
-          "
+
+          print('Dark mode conversion complete.')
+          DARKMODE_SCRIPT
 
       # 3. Push File SVG yang Sudah Disesuaikan ke Branch Output
       - name: push pacman-contribution-graph.svg to output branch
