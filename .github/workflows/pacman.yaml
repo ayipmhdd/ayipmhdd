@@ -19,14 +19,26 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Trik: Hapus background putih (#ffffff) & ubah warna teks bulan/hari jadi terang agar terlihat di Dark Mode
-      - name: make svg background transparent & fix dark mode text
+      # 2. Trik: Ubah kotak putih jadi gelap, labirin jadi biru Pac-Man, dan teks jadi terang
+      - name: customize SVG colors for github dark mode
         run: |
+          # Hapus canvas background putih utama
           sed -i 's/fill="#ffffff"/fill="none"/g' dist/pacman-contribution-graph.svg
+          
+          # Ubah kotak-kotak kontribusi kosong (putih/abu terang) jadi abu-abu gelap GitHub (#161b22)
+          sed -i 's/fill="#ebedf0"/fill="#161b22"/g' dist/pacman-contribution-graph.svg
+          sed -i 's/fill="#f0f0f0"/fill="#161b22"/g' dist/pacman-contribution-graph.svg
+          
+          # Ubah garis labirin hitam/pucat jadi biru neon Pac-Man (#2188ff) biar menyala!
+          sed -i 's/stroke="#000000"/stroke="#2188ff"/g' dist/pacman-contribution-graph.svg
+          sed -i 's/stroke="#000"/stroke="#2188ff"/g' dist/pacman-contribution-graph.svg
+          sed -i 's/stroke="#cccccc"/stroke="#2188ff"/g' dist/pacman-contribution-graph.svg
+          
+          # Ubah teks bulan & hari (Jan, Feb, Mon, Wed) jadi abu-abu terang (#8b949e) biar terbaca
           sed -i 's/fill="#000000"/fill="#8b949e"/g' dist/pacman-contribution-graph.svg
-          sed -i 's/stroke="#000000"/stroke="#30363d"/g' dist/pacman-contribution-graph.svg
+          sed -i 's/fill="#000"/fill="#8b949e"/g' dist/pacman-contribution-graph.svg
 
-      # 3. Push hasil SVG yang sudah transparan ke branch output
+      # 3. Push hasil SVG ke branch output
       - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
