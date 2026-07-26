@@ -19,56 +19,40 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Paksa SEMUA elemen rect non-hijau menjadi Dark Mode
-      - name: force brute-force dark mode on all SVG rects
+      # 2. Sapu bersih CSS & Atribut dengan Python Text Replacement
+      - name: convert SVG to dark mode using python regex
         run: |
           python3 -c "
-          import xml.etree.ElementTree as ET
+          import re
 
           file_path = 'dist/pacman-contribution-graph.svg'
-          
-          # Biar namespace SVG tetap utuh
-          ET.register_namespace('', 'http://www.w3.org/2000/svg')
-          tree = ET.parse(file_path)
-          root = tree.getroot()
+          with open(file_path, 'r', encoding='utf-8') as f:
+              content = f.read()
 
-          # Daftar warna hijau kontribusi GitHub agar TIDAK ikut terhapus
-          green_colors = ['#216e39', '#30a14e', '#40c463', '#9be9a8', 'rgb(33, 110, 57)', 'rgb(48, 161, 78)', 'rgb(64, 196, 99)', 'rgb(155, 233, 168)']
+          # 1. Timpa warna putih/terang pada CSS class (.day, .ContributionCalendar-day, dll)
+          content = re.sub(r'fill:\s*#(ffffff|fff|ebedf0|f0f0f0|eeeeee|e1e4e8|d1d5da)', 'fill: #161b22', content, flags=re.IGNORECASE)
+          content = re.sub(r'fill:\s*white', 'fill: #161b22', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke:\s*#(ffffff|fff|ebedf0|e1e4e8|d1d5da)', 'stroke: #0d1117', content, flags=re.IGNORECASE)
 
-          for elem in root.iter():
-              tag = elem.tag.split('}')[-1] if '}' in elem.tag else elem.tag
-              
-              # PROSES KOTAK-KOTAK (<rect>)
-              if tag == 'rect':
-                  fill_val = elem.get('fill', '').lower()
-                  style_val = elem.get('style', '').lower()
-                  
-                  # Cek apakah kotak ini BUKAN kotak hijau kontribusi
-                  is_green = any(g in fill_val for g in green_colors) or any(g in style_val for g in green_colors)
-                  
-                  if not is_green:
-                      # Paksa warna isi dan border jadi abu-abu gelap
-                      elem.set('fill', '#161b22')
-                      elem.set('stroke', '#0d1117')
-                      if 'style' in elem.attrib:
-                          elem.attrib['style'] = 'fill: #161b22 !important; stroke: #0d1117 !important;'
+          # 2. Timpa atribut fill & stroke pada tag XML
+          content = re.sub(r'fill=[\"\']#(ffffff|fff|ebedf0|f0f0f0|eeeeee)[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'fill=[\"\']white[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke=[\"\']#(ffffff|fff|ebedf0|e1e4e8|d1d5da)[\"\']', 'stroke=\"#0d1117\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke=[\"\']white[\"\']', 'stroke=\"#0d1117\"', content, flags=re.IGNORECASE)
 
-              # PROSES GARIS LABIRIN (<path> / <line>)
-              elif tag in ['path', 'line']:
-                  stroke_val = elem.get('stroke', '').lower()
-                  # Jika bukan garis hijau/transparan, ubah jadi Biru Neon Pac-Man menyala!
-                  if stroke_val != 'none':
-                      elem.set('stroke', '#388bfd')
-                      elem.set('stroke-width', '2')
+          # 3. Ubah garis labirin jadi Biru Neon menyala (#388bfd)
+          content = re.sub(r'stroke=[\"\']#(000000|000|333333|666666|cccccc|ccc)[\"\']', 'stroke=\"#388bfd\" stroke-width=\"2\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke:\s*#(000000|000|333333|666666|cccccc|ccc)', 'stroke: #388bfd; stroke-width: 2px', content, flags=re.IGNORECASE)
 
-              # PROSES TEKS BULAN/HARI (<text>)
-              elif tag == 'text':
-                  elem.set('fill', '#c9d1d9')
+          # 4. Ubah teks bulan/hari jadi terang (#c9d1d9)
+          content = re.sub(r'fill=[\"\']#(000000|000)[\"\']', 'fill=\"#c9d1d9\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'fill:\s*#(000000|000)', 'fill: #c9d1d9', content, flags=re.IGNORECASE)
 
-          tree.write(file_path, encoding='utf-8', xml_declaration=True)
+          with open(file_path, 'w', encoding='utf-8') as f:
+              f.write(content)
           "
 
-      # 3. Push Hasil SVG
+      # 3. Push hasil SVG
       - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
