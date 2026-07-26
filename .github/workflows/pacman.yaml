@@ -13,11 +13,20 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # 1. Generate SVG Pac-Man bawaan
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
+      # 2. Trik: Hapus background putih (#ffffff) & ubah warna teks bulan/hari jadi terang agar terlihat di Dark Mode
+      - name: make svg background transparent & fix dark mode text
+        run: |
+          sed -i 's/fill="#ffffff"/fill="none"/g' dist/pacman-contribution-graph.svg
+          sed -i 's/fill="#000000"/fill="#8b949e"/g' dist/pacman-contribution-graph.svg
+          sed -i 's/stroke="#000000"/stroke="#30363d"/g' dist/pacman-contribution-graph.svg
+
+      # 3. Push hasil SVG yang sudah transparan ke branch output
       - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
