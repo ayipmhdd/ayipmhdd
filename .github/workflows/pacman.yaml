@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 1. Generate SVG Pac-Man Bawaan
+      # 1. Generate SVG Pac-Man
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
@@ -72,7 +72,7 @@ jobs:
           print('Dark mode conversion complete.')
           DARKMODE_SCRIPT
 
-      # 3. Push File SVG yang Sudah Disesuaikan ke Branch Output
+      # 3. Push Hasil SVG
       - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
