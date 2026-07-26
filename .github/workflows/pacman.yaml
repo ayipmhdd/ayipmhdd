@@ -2,7 +2,6 @@ name: Generate Pacman Contribution Graph
 
 on:
   schedule:
-    # Menjalankan setiap hari pukul 00:00 UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -16,14 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Generate Pacman Eating Contributions
-      # Menggunakan versi v1.0.0 yang lebih stabil
+      # Generate Pacman eating contribution dots with ghosts animation
       - name: generate-pacman-svg
-        uses: shaoxiongruan/pacman-contribution-graph@v1.0.0
+        uses: Ryuno-Ki/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # Push file ke branch output
+      # Push file hasil generate ke branch output
       - name: push pacman.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
