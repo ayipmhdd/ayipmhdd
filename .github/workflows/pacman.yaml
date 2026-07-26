@@ -56,21 +56,18 @@ jobs:
           content = re.sub(r'rgb\(\s*240\s*,\s*240\s*,\s*240\s*\)', '#161b22', content)
 
           # --- 3. Inject stroke on day-box rects (they have no stroke by default) ---
-          # This creates the subtle dark grid separator lines between cells.
+          # Gives each cell a subtle dark border so the grid is visible.
           content = re.sub(
               r'(<rect\s+id="c-\d+-\d+"[^>]*?)(/?>)',
-              r'\1 stroke="#0d1117"\2',
+              r'\1 stroke="#21262d"\2',
               content
           )
 
-          # --- 4. Maze wall rects (id="wh-*" and "wv-*") use fill="#000000" ---
-          # Black on dark is invisible. Map them to neon blue so the maze is visible.
-          content = re.sub(
-              r'(<rect\s+id="w[hv]-\d+-\d+"[^>]*?fill=")(?:#000000|#000|#111111|#222222|#333333)(")',
-              r'\1#187bcd\2',
-              content,
-              flags=re.IGNORECASE
-          )
+          # --- 4. Maze wall rects use fill="#000000" (black on dark = invisible) ---
+          # Safe global replace: #000000 only appears in wh-*/wv-* wall rects.
+          # Sprites are base64 PNG images and are not affected by this.
+          content = content.replace('#000000', '#388bfd')  # bright GitHub blue
+          content = content.replace('#000', '#388bfd')     # shorthand variant
 
           # --- 5. Fix text labels: #57606a / #000 / #333 -> light grey ---
           content = re.sub(
