@@ -13,33 +13,64 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 1. Generate SVG Pac-Man Bawaan (Versi Asli yang Lengkap Garis Labirinnya)
+      # 1. Generate SVG Pac-Man Asli
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Inversi Warna SVG Secara Sempurna Menggunakan Filter CSS Internal
-      - name: invert SVG colors for dark mode
+      # 2. Manipulasi Atribut XML Spesifik (Sapu Bersih Atribut & Style)
+      - name: dark mode fix for rects and maze lines
         run: |
           python3 -c "
+          import xml.etree.ElementTree as ET
+
           file_path = 'dist/pacman-contribution-graph.svg'
-          with open(file_path, 'r', encoding='utf-8') as f:
-              content = f.read()
+          ET.register_namespace('', 'http://www.w3.org/2000/svg')
+          tree = ET.parse(file_path)
+          root = tree.getroot()
 
-          # Injeksi style filter invert langsung ke elemen <svg> utama
-          # filter: invert(0.92) hue-rotate(180deg) akan membalikkan elemen putih ke gelap
-          # dan menjaga kontras garis labirin serta warna hantu/pacman
-          dark_style = '<style>rect, path, line, text { filter: invert(0.92) hue-rotate(180deg); }</style>'
-          
-          # Masukkan style tepat di awal tag SVG
-          content = content.replace('</svg>', f'{dark_style}</svg>')
+          # Warna hijau kontribusi yang TIDAK boleh diubah
+          green_fills = ['#216e39', '#30a14e', '#40c463', '#9be9a8', '#0e4429', '#006d32', '#26a641', '#39d353']
 
-          with open(file_path, 'w', encoding='utf-8') as f:
-              f.write(content)
+          for elem in root.iter():
+              tag = elem.tag.split('}')[-1] if '}' in elem.tag else elem.tag
+
+              # 1. UBAH KOTAK-KOTAK (RECT)
+              if tag == 'rect':
+                  fill = elem.get('fill', '').lower()
+                  # Jika bukan kotak hijau kontribusi, PAKSA jadi abu-abu gelap GitHub
+                  if not any(g in fill for g in green_fills):
+                      elem.set('fill', '#161b22')
+                      elem.set('stroke', '#0d1117')
+                      # Hapus style inline yang menimpa warna
+                      if 'style' in elem.attrib:
+                          del elem.attrib['style']
+
+              # 2. UBAH GARIS LABIRIN (PATH/LINE HANYA YANG BERWARNA GELAP/HITAM)
+              elif tag in ['path', 'line']:
+                  stroke = elem.get('stroke', '').lower()
+                  fill = elem.get('fill', '').lower()
+                  # Pac-Man dan Hantu punya fill kuning/merah/pink, jadi JANGAN ubah path yang punya fill warna!
+                  if fill == 'none' or fill == '' or stroke in ['#000', '#000000', '#333', '#333333', '#cccccc', '#ccc']:
+                      elem.set('stroke', '#8b949e') # Abu-abu terang khas dark mode
+                      elem.set('stroke-width', '1.5')
+
+              # 3. UBAH TEKS BULAN (JAN, FEB, DST)
+              elif tag == 'text':
+                  elem.set('fill', '#c9d1d9')
+
+          tree.write(file_path, encoding='utf-8', xml_declaration=True)
           "
 
-      # 3. Push hasil SVG
+      # 3. Hapus CSS <style> Bawaan yang Mengunci Warna Putih
+      - name: strip inline white styles
+        run: |
+          sed -i 's/fill:\s*#ffffff/fill: #161b22/g' dist/pacman-contribution-graph.svg
+          sed -i 's/fill:\s*white/fill: #161b22/g' dist/pacman-contribution-graph.svg
+          sed -i 's/background-color:\s*#ffffff/background-color: transparent/g' dist/pacman-contribution-graph.svg
+
+      # 4. Push Hasil SVG
       - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
