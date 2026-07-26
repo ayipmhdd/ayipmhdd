@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **ayipmhdd/ayipmhdd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -15,8 +13,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+### 👾 My Pac-Man Contributions
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-pacman.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-pacman.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-pacman.svg">
 </picture>
