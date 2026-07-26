@@ -19,7 +19,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Global Dark Mode Color Conversion (fixes static attrs + <animate> values)
+      # 2. Dark Mode Color Conversion + Maze Line Fix
       - name: dark mode color conversion
         run: |
           python3 << 'DARKMODE_SCRIPT'
@@ -31,9 +31,8 @@ jobs:
 
           # =================================================================
           # GLOBAL COLOR MAP: light-mode hex -> dark-mode hex
-          # This replaces colors EVERYWHERE in the SVG, including inside
-          # <animate values="..."> which the old script missed entirely.
-          # Green contribution levels are NOT mapped, so they stay intact.
+          # Replaces colors everywhere: static attrs, animate values, CSS.
+          # Green contribution levels are NOT in the map -> preserved.
           # =================================================================
           COLOR_MAP = {
               '#ebedf0': '#161b22',   # empty day boxes -> dark grid cell
@@ -50,18 +49,33 @@ jobs:
           for old_color, new_color in COLOR_MAP.items():
               content = re.sub(re.escape(old_color), new_color, content, flags=re.IGNORECASE)
 
-          # --- 2. Replace CSS/SVG 'white' keyword ---
+          # --- 2. Replace CSS/SVG 'white' keyword and rgb() variants ---
           content = re.sub(r'\bwhite\b', '#0d1117', content, flags=re.IGNORECASE)
-
-          # --- 3. Replace rgb() variants of white/light grey ---
           content = re.sub(r'rgb\(\s*255\s*,\s*255\s*,\s*255\s*\)', '#0d1117', content)
           content = re.sub(r'rgb\(\s*235\s*,\s*237\s*,\s*240\s*\)', '#161b22', content)
           content = re.sub(r'rgb\(\s*240\s*,\s*240\s*,\s*240\s*\)', '#161b22', content)
 
-          # --- 4. Fix text labels: dark text -> light grey for readability ---
+          # --- 3. Inject stroke on day-box rects (they have no stroke by default) ---
+          # This creates the subtle dark grid separator lines between cells.
           content = re.sub(
-              r'(<text[^>]+)fill="(?:#000000|#000|#333333|#333)"',
-              r'\1fill="#c9d1d9"',
+              r'(<rect\s+id="c-\d+-\d+"[^>]*?)(/?>)',
+              r'\1 stroke="#0d1117"\2',
+              content
+          )
+
+          # --- 4. Maze wall rects (id="wh-*" and "wv-*") use fill="#000000" ---
+          # Black on dark is invisible. Map them to neon blue so the maze is visible.
+          content = re.sub(
+              r'(<rect\s+id="w[hv]-\d+-\d+"[^>]*?fill=")(?:#000000|#000|#111111|#222222|#333333)(")',
+              r'\1#187bcd\2',
+              content,
+              flags=re.IGNORECASE
+          )
+
+          # --- 5. Fix text labels: #57606a / #000 / #333 -> light grey ---
+          content = re.sub(
+              r'(<text[^>]+fill=")(?:#57606a|#000000|#000|#333333|#333)(")',
+              r'\1#c9d1d9\2',
               content,
               flags=re.IGNORECASE
           )
