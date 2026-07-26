@@ -55,10 +55,13 @@ jobs:
           content = re.sub(r'rgb\(\s*235\s*,\s*237\s*,\s*240\s*\)', '#161b22', content)
           content = re.sub(r'rgb\(\s*240\s*,\s*240\s*,\s*240\s*\)', '#161b22', content)
 
-          # --- 3. Remove border from day-box rects (borderless = cleaner look) ---
+          # --- 3. Shrink cells from 20x20 -> 16x16 (+2 offset) = 3px gap each side ---
+          # Native GitHub cells also have visible gap between them.
+          def shrink_cell(m):
+              return f'{m.group(1)} x="{int(m.group(2))+2}" y="{int(m.group(3))+2}" width="16" height="16"'
           content = re.sub(
-              r'(<rect\s+id="c-\d+-\d+"[^>]*?)(/?>)',
-              r'\1 stroke="none"\2',
+              r'(<rect\s+id="c-\d+-\d+") x="(\d+)" y="(\d+)" width="20" height="20"',
+              shrink_cell,
               content
           )
 
@@ -76,7 +79,8 @@ jobs:
               flags=re.IGNORECASE
           )
           # Inject GitHub native font-family on all text elements
-          GITHUB_FONT = '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif'
+          # Use single quotes for 'Segoe UI' to avoid breaking XML attribute syntax
+          GITHUB_FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
           content = re.sub(
               r'(<text\b)',
               r'\1 font-family="' + GITHUB_FONT + '"',
