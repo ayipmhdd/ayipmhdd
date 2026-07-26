@@ -19,48 +19,37 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Sapu Bersih Semua Elemen SVG Kotak-Kotak Jadi Dark Mode
-      - name: convert SVG to dark mode using python XML
+      # 2. Sapu bersih CSS & Atribut dengan Python Text Replacement
+      - name: convert SVG to dark mode using python regex
         run: |
           python3 -c "
-          import xml.etree.ElementTree as ET
+          import re
 
           file_path = 'dist/pacman-contribution-graph.svg'
-          
-          # Register namespace agar SVG tidak rusak
-          ET.register_namespace('', 'http://www.w3.org/2000/svg')
-          tree = ET.parse(file_path)
-          root = tree.getroot()
+          with open(file_path, 'r', encoding='utf-8') as f:
+              content = f.read()
 
-          # Warna putih / abu-abu terang yang mau diubah ke dark mode
-          light_colors = ['#ffffff', '#fff', 'white', '#ebedf0', '#f0f0f0', '#eeeeee', '#e1e4e8', '#d1d5da']
+          # 1. Timpa warna putih/terang pada CSS class (.day, .ContributionCalendar-day, dll)
+          content = re.sub(r'fill:\s*#(ffffff|fff|ebedf0|f0f0f0|eeeeee|e1e4e8|d1d5da)', 'fill: #161b22', content, flags=re.IGNORECASE)
+          content = re.sub(r'fill:\s*white', 'fill: #161b22', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke:\s*#(ffffff|fff|ebedf0|e1e4e8|d1d5da)', 'stroke: #0d1117', content, flags=re.IGNORECASE)
 
-          for elem in root.iter():
-              # 1. Ubah warna fill jika terdeteksi warna putih/terang
-              fill = elem.get('fill', '').lower()
-              style = elem.get('style', '').lower()
-              
-              if any(c in fill for c in light_colors) or any(c in style for c in light_colors):
-                  elem.set('fill', '#161b22')
-                  if 'style' in elem.attrib:
-                      # Timpa style inline jika ada
-                      elem.attrib['style'] = 'fill: #161b22; stroke: #0d1117;'
+          # 2. Timpa atribut fill & stroke pada tag XML
+          content = re.sub(r'fill=[\"\']#(ffffff|fff|ebedf0|f0f0f0|eeeeee)[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'fill=[\"\']white[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke=[\"\']#(ffffff|fff|ebedf0|e1e4e8|d1d5da)[\"\']', 'stroke=\"#0d1117\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke=[\"\']white[\"\']', 'stroke=\"#0d1117\"', content, flags=re.IGNORECASE)
 
-              # 2. Paksa border kotak-kotak kecil (stroke) jadi gelap (#0d1117)
-              stroke = elem.get('stroke', '').lower()
-              if any(c in stroke for c in light_colors):
-                  elem.set('stroke', '#0d1117')
+          # 3. Ubah garis labirin jadi Biru Neon menyala (#388bfd)
+          content = re.sub(r'stroke=[\"\']#(000000|000|333333|666666|cccccc|ccc)[\"\']', 'stroke=\"#388bfd\" stroke-width=\"2\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke:\s*#(000000|000|333333|666666|cccccc|ccc)', 'stroke: #388bfd; stroke-width: 2px', content, flags=re.IGNORECASE)
 
-              # 3. Ubah garis labirin (path/line) hitam/pucat jadi Biru Neon (#388bfd) & tebal
-              if elem.tag.endswith(('path', 'line')):
-                  elem.set('stroke', '#388bfd')
-                  elem.set('stroke-width', '2')
+          # 4. Ubah teks bulan/hari jadi terang (#c9d1d9)
+          content = re.sub(r'fill=[\"\']#(000000|000)[\"\']', 'fill=\"#c9d1d9\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'fill:\s*#(000000|000)', 'fill: #c9d1d9', content, flags=re.IGNORECASE)
 
-              # 4. Ubah warna teks bulan & hari (Jan, Feb, Mon) jadi abu-abu terang (#c9d1d9)
-              if elem.tag.endswith('text'):
-                  elem.set('fill', '#c9d1d9')
-
-          tree.write(file_path, encoding='utf-8', xml_declaration=True)
+          with open(file_path, 'w', encoding='utf-8') as f:
+              f.write(content)
           "
 
       # 3. Push hasil SVG
