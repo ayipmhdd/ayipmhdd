@@ -15,8 +15,7 @@ Here are some ideas to get you started:
 
 ### 👾 My Pac-Man Contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/pacman-contribution-graph.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/pacman-contribution-graph.svg#gh-light-mode-only">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/pacman-contribution-graph.svg" style="background-color: #0d1117; border-radius: 6px;">
-</picture>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/pacman-contribution-graph.svg#gh-dark-mode-only" style="filter: invert(0.9) hue-rotate(180deg);" />
+  <img src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/pacman-contribution-graph.svg#gh-light-mode-only" />
+</p>
