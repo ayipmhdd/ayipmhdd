@@ -13,16 +13,12 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v4
-
-      # Generate Pacman eating contribution dots with ghosts animation
-      - name: generate-pacman-svg
-        uses: Ryuno-Ki/pacman-contribution-graph@main
+      - name: generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # Push file hasil generate ke branch output
-      - name: push pacman.svg to the output branch
+      - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
