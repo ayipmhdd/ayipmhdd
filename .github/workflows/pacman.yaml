@@ -13,27 +13,37 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 1. Generate SVG Pac-Man
+      # 1. Generate SVG Pac-Man Bawaan
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # 2. Suntikkan CSS khusus untuk Dark Mode
-      - name: inject custom dark mode styles into SVG
+      # 2. Bedah warna SVG menggunakan Python Script (Anti-Sanitize GitHub)
+      - name: convert SVG to dark mode using python
         run: |
-          # Bikin string CSS khusus dark mode
-          DARK_STYLE="<style> \
-            svg { background: transparent !important; } \
-            rect[fill='#ffffff'], rect[fill='#FFF'], rect[fill='#ebedf0'], rect[fill='#f0f0f0'], .day { fill: #161b22 !important; stroke: #0d1117 !important; } \
-            path, line { stroke: #388bfd !important; stroke-width: 2px !important; } \
-            text { fill: #c9d1d9 !important; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif !important; } \
-          </style>"
-          
-          # Inject CSS tersebut tepat sebelum tag penutup </svg>
-          sed -i "s|</svg>|${DARK_STYLE}</svg>|g" dist/pacman-contribution-graph.svg
+          python3 -c "
+          import re
 
-      # 3. Push hasil SVG
+          file_path = 'dist/pacman-contribution-graph.svg'
+          with open(file_path, 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Replace warna background canvas putih & kotak-kotak terang ke dark mode (#161b22 / #0d1117)
+          content = re.sub(r'fill=[\"\']#(ffffff|FFF|ebedf0|f0f0f0|eeeeee)[\"\']', 'fill=\"#161b22\"', content, flags=re.IGNORECASE)
+          content = re.sub(r'stroke=[\"\']#(ffffff|FFF|ebedf0|e1e4e8|d1d5da)[\"\']', 'stroke=\"#0d1117\"', content, flags=re.IGNORECASE)
+
+          # Bikin garis labirin hitam/pucat jadi Biru Neon (#388bfd) & tebal
+          content = re.sub(r'stroke=[\"\']#(000000|000|333333|666666)[\"\']', 'stroke=\"#388bfd\" stroke-width=\"2\"', content, flags=re.IGNORECASE)
+
+          # Ubah warna teks bulan/hari (Jan, Feb, Mon) jadi abu-abu terang (#c9d1d9)
+          content = re.sub(r'fill=[\"\']#(000000|000)[\"\']', 'fill=\"#c9d1d9\"', content, flags=re.IGNORECASE)
+
+          with open(file_path, 'w', encoding='utf-8') as f:
+              f.write(content)
+          "
+
+      # 3. Push Hasil SVG yang Sudah Gelap ke Branch Output
       - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
