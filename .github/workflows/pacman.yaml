@@ -17,6 +17,8 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          # TAMBAHKAN BARIS INI UNTUK TEMA GELAP
+          theme: github-dark 
 
       - name: push pacman-contribution-graph.svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
