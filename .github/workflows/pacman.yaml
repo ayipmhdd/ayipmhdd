@@ -55,11 +55,10 @@ jobs:
           content = re.sub(r'rgb\(\s*235\s*,\s*237\s*,\s*240\s*\)', '#161b22', content)
           content = re.sub(r'rgb\(\s*240\s*,\s*240\s*,\s*240\s*\)', '#161b22', content)
 
-          # --- 3. Inject stroke on day-box rects (they have no stroke by default) ---
-          # Gives each cell a subtle dark border so the grid is visible.
+          # --- 3. Remove border from day-box rects (borderless = cleaner look) ---
           content = re.sub(
               r'(<rect\s+id="c-\d+-\d+"[^>]*?)(/?>)',
-              r'\1 stroke="#21262d"\2',
+              r'\1 stroke="none"\2',
               content
           )
 
@@ -69,12 +68,19 @@ jobs:
           content = content.replace('#000000', '#388bfd')  # bright GitHub blue
           content = content.replace('#000', '#388bfd')     # shorthand variant
 
-          # --- 5. Fix text labels: #57606a / #000 / #333 -> light grey ---
+          # --- 5. Fix text labels: color + GitHub native font ---
           content = re.sub(
               r'(<text[^>]+fill=")(?:#57606a|#000000|#000|#333333|#333)(")',
               r'\1#c9d1d9\2',
               content,
               flags=re.IGNORECASE
+          )
+          # Inject GitHub native font-family on all text elements
+          GITHUB_FONT = '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif'
+          content = re.sub(
+              r'(<text\b)',
+              r'\1 font-family="' + GITHUB_FONT + '"',
+              content
           )
 
           with open(file_path, 'w', encoding='utf-8') as f:
