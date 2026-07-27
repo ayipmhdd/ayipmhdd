@@ -62,11 +62,9 @@ Here are some ideas to get you started:
 
 <br>
 
-<!-- 4 & 8. WAKATIME & DYNAMIC BLOG POSTS SECTION -->
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 <p align="center">
-  <!-- WakaTime Card (Menampilkan jam ngoding & bahasa yang dipakai) -->
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ayipmhdd&theme=dark&hide_border=true&bg_color=0d1117&layout=compact" width="80%" alt="Wakatime Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=@2d742e40-d41e-461e-bb1e-39387b85c3d2&theme=dark&hide_border=true&bg_color=0d1117&layout=compact" width="80%" alt="Wakatime Stats" />
 </p>
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
