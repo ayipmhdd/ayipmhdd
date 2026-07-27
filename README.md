@@ -66,6 +66,79 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-263.40%20thousand%20lines%20of%20code-blue?style=flat)
+
+**🐱 My GitHub Data** 
+
+> 📦 27.4 kB Used in GitHub's Storage 
+ > 
+> 🏆 103 Contributions in the Year 2026
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 5 Public Repositories 
+ > 
+> 🔑 5 Private Repositories 
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                34 commits          █████░░░░░░░░░░░░░░░░░░░░   20.73 % 
+🌆 Daytime                32 commits          █████░░░░░░░░░░░░░░░░░░░░   19.51 % 
+🌃 Evening                76 commits          ████████████░░░░░░░░░░░░░   46.34 % 
+🌙 Night                  22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.41 % 
+```
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday                   46 commits          ███████░░░░░░░░░░░░░░░░░░   28.05 % 
+Tuesday                  24 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.63 % 
+Wednesday                22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.41 % 
+Thursday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.05 % 
+Friday                   13 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.93 % 
+Saturday                 16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.76 % 
+Sunday                   38 commits          ██████░░░░░░░░░░░░░░░░░░░   23.17 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Jakarta
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in Blade** 
+
+```text
+Blade                    8 repos             ███████████░░░░░░░░░░░░░░   44.44 % 
+JavaScript               5 repos             ███████░░░░░░░░░░░░░░░░░░   27.78 % 
+TypeScript               2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+Dart                     2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/main/assets/bar_graph.png)
+
+
+ Last Updated on 27/07/2026 12:50:02 UTC
 <!--END_SECTION:waka-->
 </p>
 
