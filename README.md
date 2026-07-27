@@ -65,11 +65,8 @@ Here are some ideas to get you started:
 <!-- 4 & 8. WAKATIME & DYNAMIC BLOG POSTS SECTION -->
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 <p align="center">
-  <!-- GitHub Activity Graph (Langsung bekerja dari data kontribusi GitHub) -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayipmhdd&bg_color=0d1117&color=58a6ff&line=388bfd&point=fff&area=true&hide_border=true" width="97%" alt="Activity Graph" />
-
-  <!-- WakaTime Card (Hapus tanda komentar '<!--' dan '-->' di bawah ini JIKA kamu sudah membuat akun dan meng-public-kan profil di wakatime.com dengan username ayipmhdd) -->
-  <!-- <img src="https://github-stats-extended.vercel.app/api/wakatime?username=ayipmhdd&theme=dark&hide_border=true&bg_color=0d1117" width="80%" alt="Wakatime Stats" /> -->
+  <!-- WakaTime Card (Menampilkan jam ngoding & bahasa yang dipakai) -->
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ayipmhdd&theme=dark&hide_border=true&bg_color=0d1117&layout=compact" width="80%" alt="Wakatime Stats" />
 </p>
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
