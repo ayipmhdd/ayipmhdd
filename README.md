@@ -69,6 +69,9 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ayipmhdd&theme=dark&hide_border=true&bg_color=0d1117&layout=compact" width="80%" alt="Wakatime Stats" />
 </p>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
 <!-- Dynamically updated by GitHub Actions -->
 <!-- BLOG-POST-LIST:START -->
