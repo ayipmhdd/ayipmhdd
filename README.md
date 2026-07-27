@@ -64,8 +64,10 @@ Here are some ideas to get you started:
 
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
+<p align="center">
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+</p>
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
 <!-- Dynamically updated by GitHub Actions -->
