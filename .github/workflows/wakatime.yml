@@ -1,4 +1,4 @@
-name: WakaTime Visual Stats Generator
+git commit -m "feat: upgrade wakatime workflow to visual SVG card generator"name: WakaTime Visual Stats Generator
 
 on:
   schedule:
