@@ -56,22 +56,9 @@ Here are some ideas to get you started:
 
 <!-- PAC-MAN GRAPH (YANG SUDAH FIX DARK MODE) -->
 <h3 align="center">👾 Pac-Man Contributions</h3>
-### 👾 My Pac-Man Contributions
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
 </p>
-
-<br>
-
-<!-- 7. SNAKE CONTRIBUTION ANIMATION (COLLAPSIBLE DROPDOWN) -->
-<details>
-  <summary><b>🐍 Click to reveal Snake Contribution Graph</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
-  </p>
-</details>
 
 <br>
 
