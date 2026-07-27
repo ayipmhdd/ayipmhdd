@@ -63,9 +63,6 @@ Here are some ideas to get you started:
 <br>
 
 <h3 align="center">⏳ Coding Stats & Activity</h3>
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=@2d742e40-d41e-461e-bb1e-39387b85c3d2&theme=dark&hide_border=true&bg_color=0d1117&layout=compact" width="80%" alt="Wakatime Stats" />
-</p>
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
