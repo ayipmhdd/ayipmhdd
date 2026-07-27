@@ -43,13 +43,13 @@ Here are some ideas to get you started:
 <!-- 1 & 3. STAT CARDS + TOP LANGUAGES (SIDE BY SIDE) -->
 <h3 align="center">📊 GitHub Overview</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ayipmhdd&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayipmhdd&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api?username=ayipmhdd&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ayipmhdd&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" width="48%" />
 </p>
 
 <!-- 3. STREAK STATS -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ayipmhdd&theme=dark&hide_border=true&background=0d1117" width="97%" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=ayipmhdd&theme=dark&hide_border=true&background=0d1117" width="97%" alt="GitHub Streak" />
 </p>
 
 <br>
@@ -66,7 +66,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 <p align="center">
   <!-- WakaTime Card (Aktif jika kamu hubungkan WakaTime ke GitHub) -->
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ayipmhdd&theme=dark&hide_border=true&bg_color=0d1117" width="80%" alt="Wakatime Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=ayipmhdd&theme=dark&hide_border=true&bg_color=0d1117" width="80%" alt="Wakatime Stats" />
 </p>
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
