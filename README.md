@@ -66,13 +66,15 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-78%20hrs%2031%20mins-blue?style=flat)
+
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-78%20hrs%2049%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-263.40%20thousand%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 27.4 kB Used in GitHub's Storage 
+> 📦 27.5 kB Used in GitHub's Storage 
  > 
 > 🏆 103 Contributions in the Year 2026
  > 
@@ -109,16 +111,48 @@ Sunday                   38 commits          ██████░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+JavaScript               2 hrs 28 mins       █████████░░░░░░░░░░░░░░░░   36.29 % 
+Dart                     1 hr 30 mins        ██████░░░░░░░░░░░░░░░░░░░   22.15 % 
+YAML                     59 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.45 % 
+Markdown                 46 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.26 % 
+CSS                      29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.09 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Antigravity IDE          6 hrs 50 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+portofolio               2 hrs 32 mins       █████████░░░░░░░░░░░░░░░░   37.20 % 
+ayipmhdd                 1 hr 45 mins        ██████░░░░░░░░░░░░░░░░░░░   25.71 % 
+PerisAI                  1 hr 33 mins        ██████░░░░░░░░░░░░░░░░░░░   22.78 % 
+fortofolio               51 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.57 % 
+tora                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.91 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  6 hrs 50 mins       █████████████████████████   100.00 % 
+```
+
+🤖 **AI Coding This Week** 
+
+```text
+⏱ AI Coding Time: 6 hrs 48 mins (99.4%)
+
+✍️ 561 lines written by AI, 6 lines written by hand (98.94% AI-written)
+
+🔤 0 Input Tokens, 0 Output Tokens
+
+💵 $0.00 Estimated AI Cost This Week
+
+🧠 8 AI Sessions, 103 AI Prompts
+
+Gemini                   749 lines           ████████████████████████░   95.17 % 
+Sonnet                   27 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   03.43 % 
+Opus                     11 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
+
+🔎 AI Coding Insights:
+🤖 AI-Driven — 98.94% of written lines came from AI
+📄 Detailed Prompter — average 577 characters per prompt
+🔁 Iterative Prompter — average 13 prompts per session
+🚀 High AI Trust — 8.81% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Blade** 
@@ -138,7 +172,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/main/assets/bar_graph.png)
 
 
- Last Updated on 27/07/2026 12:50:02 UTC
+ Last Updated on 28/07/2026 02:35:10 UTC
 <!--END_SECTION:waka-->
 </p>
 
