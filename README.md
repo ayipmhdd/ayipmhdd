@@ -49,7 +49,7 @@ Here are some ideas to get you started:
 
 <!-- 3. STREAK STATS -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ayipmhdd&theme=dark&hide_border=true&background=0d1117&mode=daily" width="97%" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=ayipmhdd&theme=dark&hide_border=true&background=0d1117&mode=daily" width="97%" alt="GitHub Streak" />
 </p>
 
 <br>
