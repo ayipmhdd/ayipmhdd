@@ -68,40 +68,26 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-78%20hrs%2031%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-78%20hrs%2049%20mins-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-369-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-263.40%20thousand%20lines%20of%20code-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 27.5 kB Used in GitHub's Storage 
- > 
-> 🏆 103 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 5 Public Repositories 
- > 
-> 🔑 5 Private Repositories 
- > 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                34 commits          █████░░░░░░░░░░░░░░░░░░░░   20.73 % 
-🌆 Daytime                32 commits          █████░░░░░░░░░░░░░░░░░░░░   19.51 % 
-🌃 Evening                76 commits          ████████████░░░░░░░░░░░░░   46.34 % 
-🌙 Night                  22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.41 % 
+🌞 Morning                34 commits          █████░░░░░░░░░░░░░░░░░░░░   20.36 % 
+🌆 Daytime                32 commits          █████░░░░░░░░░░░░░░░░░░░░   19.16 % 
+🌃 Evening                79 commits          ████████████░░░░░░░░░░░░░   47.31 % 
+🌙 Night                  22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.17 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   46 commits          ███████░░░░░░░░░░░░░░░░░░   28.05 % 
-Tuesday                  24 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.63 % 
-Wednesday                22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.41 % 
-Thursday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.05 % 
-Friday                   13 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.93 % 
-Saturday                 16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.76 % 
-Sunday                   38 commits          ██████░░░░░░░░░░░░░░░░░░░   23.17 % 
+Monday                   46 commits          ███████░░░░░░░░░░░░░░░░░░   27.54 % 
+Tuesday                  27 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.17 % 
+Wednesday                22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.17 % 
+Thursday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+Friday                   13 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.78 % 
+Saturday                 16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.58 % 
+Sunday                   38 commits          ██████░░░░░░░░░░░░░░░░░░░   22.75 % 
 ```
 
 
@@ -131,30 +117,6 @@ tora                     3 mins              ░░░░░░░░░░░�
 Windows                  6 hrs 50 mins       █████████████████████████   100.00 % 
 ```
 
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 6 hrs 48 mins (99.4%)
-
-✍️ 561 lines written by AI, 6 lines written by hand (98.94% AI-written)
-
-🔤 0 Input Tokens, 0 Output Tokens
-
-💵 $0.00 Estimated AI Cost This Week
-
-🧠 8 AI Sessions, 103 AI Prompts
-
-Gemini                   749 lines           ████████████████████████░   95.17 % 
-Sonnet                   27 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   03.43 % 
-Opus                     11 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 98.94% of written lines came from AI
-📄 Detailed Prompter — average 577 characters per prompt
-🔁 Iterative Prompter — average 13 prompts per session
-🚀 High AI Trust — 8.81% of changed lines were hand-edited
-```
-
 **I Mostly Code in Blade** 
 
 ```text
@@ -167,12 +129,8 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
-**Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/main/assets/bar_graph.png)
-
-
- Last Updated on 28/07/2026 02:35:10 UTC
+ Last Updated on 28/07/2026 15:48:22 UTC
 <!--END_SECTION:waka-->
 </p>
 
