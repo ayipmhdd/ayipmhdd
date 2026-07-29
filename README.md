@@ -62,12 +62,18 @@ Here are some ideas to get you started:
 
 <br>
 
+<!-- SNAKE CONTRIBUTION GRAPH -->
+<h3 align="center">🐍 Snake Contributions</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Graph" width="100%" />
+</p>
+
+<br>
+
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-79%20hrs%2017%20mins-blue?style=flat)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-369-blue?style=flat)
 
 **I'm a Night 🦉** 
 

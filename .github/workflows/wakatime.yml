@@ -22,6 +22,7 @@ jobs:
           SHOW_PROJECTS: "true"
           SHOW_EDITORS: "true"
           SHOW_OS: "true"
+          SHOW_PROFILE_VIEWS: "false"
           SHOW_AI_CODE_TIME: "false"
           SHOW_AI_CODING: "false"
           SHOW_LOC_CHART: "false"
