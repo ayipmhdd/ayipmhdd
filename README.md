@@ -57,7 +57,7 @@ Here are some ideas to get you started:
 <!-- PAC-MAN GRAPH (YANG SUDAH FIX DARK MODE) -->
 <h3 align="center">👾 Pac-Man Contributions</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/ayipmhdd/ayipmhdd/output-pacman/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
 </p>
 
 <br>
