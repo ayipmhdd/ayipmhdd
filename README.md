@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-79%20hrs%2017%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-79%20hrs%2039%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,24 +102,24 @@ Sunday                   38 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-JavaScript               2 hrs 28 mins       ██████████░░░░░░░░░░░░░░░   40.78 % 
-Markdown                 1 hr 23 mins        ██████░░░░░░░░░░░░░░░░░░░   22.92 % 
-YAML                     1 hr 8 mins         █████░░░░░░░░░░░░░░░░░░░░   18.66 % 
-CSS                      29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.96 % 
-HTML                     26 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.19 % 
+Markdown                 1 hr 33 mins        ███████░░░░░░░░░░░░░░░░░░   29.31 % 
+JavaScript               1 hr 30 mins        ███████░░░░░░░░░░░░░░░░░░   28.28 % 
+YAML                     1 hr 8 mins         █████░░░░░░░░░░░░░░░░░░░░   21.50 % 
+HTML                     26 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.21 % 
+CSS                      24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.73 % 
 
 🔥 Editors: 
-Antigravity IDE          6 hrs 5 mins        █████████████████████████   100.00 % 
+Antigravity IDE          5 hrs 19 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-portofolio               2 hrs 32 mins       ██████████░░░░░░░░░░░░░░░   41.80 % 
-ayipmhdd                 2 hrs 31 mins       ██████████░░░░░░░░░░░░░░░   41.58 % 
-fortofolio               51 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.13 % 
-tora                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.03 % 
-Le-dawa-v-beta-1.0       3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.94 % 
+ayipmhdd                 2 hrs 51 mins       █████████████░░░░░░░░░░░░   53.54 % 
+portofolio               1 hr 29 mins        ███████░░░░░░░░░░░░░░░░░░   28.08 % 
+fortofolio               51 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.14 % 
+tora                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.17 % 
+Le-dawa-v-beta-1.0       3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.07 % 
 
 💻 Operating System: 
-Windows                  6 hrs 5 mins        █████████████████████████   100.00 % 
+Windows                  5 hrs 19 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -135,7 +135,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 29/07/2026 14:39:06 UTC
+ Last Updated on 30/07/2026 02:27:27 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
