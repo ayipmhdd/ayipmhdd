@@ -73,6 +73,53 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-90%20hrs%2034%20mins-blue?style=flat)
+
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.80 % 
+🌆 Daytime                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.80 % 
+🌃 Evening                101 commits         █████████████░░░░░░░░░░░░   52.88 % 
+🌙 Night                  22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.52 % 
+```
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday                   52 commits          ███████░░░░░░░░░░░░░░░░░░   27.23 % 
+Tuesday                  33 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.28 % 
+Wednesday                26 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.61 % 
+Thursday                 6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.14 % 
+Friday                   16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.95 % 
+Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   20.42 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Jakarta
+
+💬 Programming Languages: 
+TypeScript               6 hrs 35 mins       ████████████████████░░░░░   79.54 % 
+Markdown                 50 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.22 % 
+Prisma                   24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.98 % 
+Bash                     13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.79 % 
+Other                    12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.47 % 
+
+🔥 Editors: 
+Antigravity IDE          8 hrs 16 mins       █████████████████████████   100.00 % 
+
+🐱‍💻 Projects: 
+tora                     7 hrs 58 mins       ████████████████████████░   96.25 % 
+SIKANDI-Skrining-Kecemasa12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.46 % 
+ayipmhdd                 6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.29 % 
+
+💻 Operating System: 
+Windows                  8 hrs 16 mins       █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in Blade** 
 
 ```text
@@ -86,7 +133,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 07/08/2026 02:41:48 UTC
+ Last Updated on 08/08/2026 01:41:27 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
