@@ -102,21 +102,21 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               3 hrs 37 mins       ███████████████████░░░░░░   77.69 % 
-Prisma                   31 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.32 % 
-Markdown                 18 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.62 % 
-Other                    12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.38 % 
+TypeScript               2 hrs 23 mins       ████████████████████░░░░░   78.89 % 
+Prisma                   14 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.91 % 
+Other                    12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.72 % 
+Markdown                 11 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.48 % 
 
 🔥 Editors: 
-Antigravity IDE          4 hrs 39 mins       █████████████████████████   100.00 % 
+Antigravity IDE          3 hrs 1 min         █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-tora                     4 hrs 21 mins       ███████████████████████░░   93.34 % 
-SIKANDI-Skrining-Kecemasa12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.37 % 
-ayipmhdd                 6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.29 % 
+tora                     2 hrs 43 mins       ██████████████████████░░░   89.76 % 
+SIKANDI-Skrining-Kecemasa12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.72 % 
+ayipmhdd                 6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 % 
 
 💻 Operating System: 
-Windows                  4 hrs 39 mins       █████████████████████████   100.00 % 
+Windows                  3 hrs 1 min         █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -132,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 09/08/2026 01:46:37 UTC
+ Last Updated on 10/08/2026 01:50:29 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
