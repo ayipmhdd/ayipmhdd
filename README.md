@@ -102,20 +102,18 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               2 hrs 16 mins       ████████████████████░░░░░   80.98 % 
-Prisma                   14 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.55 % 
-Other                    12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.27 % 
-Markdown                 5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.21 % 
+TypeScript               1 hr 11 mins        ████████████████████░░░░░   78.35 % 
+Prisma                   14 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.74 % 
+Markdown                 5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.91 % 
 
 🔥 Editors: 
-Antigravity IDE          2 hrs 48 mins       █████████████████████████   100.00 % 
+Antigravity IDE          1 hr 31 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-tora                     2 hrs 36 mins       ███████████████████████░░   92.73 % 
-SIKANDI-Skrining-Kecemasa12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.27 % 
+tora                     1 hr 31 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  2 hrs 48 mins       █████████████████████████   100.00 % 
+Windows                  1 hr 31 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -131,7 +129,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 11/08/2026 01:47:18 UTC
+ Last Updated on 12/08/2026 01:58:58 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
