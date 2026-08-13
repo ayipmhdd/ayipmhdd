@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-91%20hrs%203%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-91%20hrs%2013%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,18 +102,18 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               1 hr 11 mins        ████████████████████░░░░░   78.35 % 
-Prisma                   14 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.74 % 
-Markdown                 5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.91 % 
+TypeScript               1 hr 19 mins        █████████████████████░░░░   82.60 % 
+Prisma                   10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.70 % 
+Markdown                 6 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.70 % 
 
 🔥 Editors: 
-Antigravity IDE          1 hr 31 mins        █████████████████████████   100.00 % 
+Antigravity IDE          1 hr 36 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-tora                     1 hr 31 mins        █████████████████████████   100.00 % 
+tora                     1 hr 36 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  1 hr 31 mins        █████████████████████████   100.00 % 
+Windows                  1 hr 36 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -129,7 +129,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 12/08/2026 01:58:58 UTC
+ Last Updated on 13/08/2026 02:01:24 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
