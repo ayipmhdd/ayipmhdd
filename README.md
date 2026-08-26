@@ -73,26 +73,26 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-92%20hrs%2011%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-92%20hrs%2018%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.80 % 
-🌆 Daytime                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.80 % 
-🌃 Evening                101 commits         █████████████░░░░░░░░░░░░   52.88 % 
-🌙 Night                  22 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.52 % 
+🌞 Morning                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.71 % 
+🌆 Daytime                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.71 % 
+🌃 Evening                101 commits         █████████████░░░░░░░░░░░░   52.60 % 
+🌙 Night                  23 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.98 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   52 commits          ███████░░░░░░░░░░░░░░░░░░   27.23 % 
-Tuesday                  33 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.28 % 
-Wednesday                26 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.61 % 
-Thursday                 6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.14 % 
-Friday                   16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 % 
-Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.95 % 
-Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   20.42 % 
+Monday                   52 commits          ███████░░░░░░░░░░░░░░░░░░   27.08 % 
+Tuesday                  33 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.19 % 
+Wednesday                27 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.06 % 
+Thursday                 6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.12 % 
+Friday                   16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.90 % 
+Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   20.31 % 
 ```
 
 
@@ -102,16 +102,16 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-JavaScript               58 mins             █████████████████████████   100.00 % 
+JavaScript               1 hr 5 mins         █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Antigravity IDE          58 mins             █████████████████████████   100.00 % 
+Antigravity IDE          1 hr 5 mins         █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-portofolio               58 mins             █████████████████████████   100.00 % 
+portofolio               1 hr 5 mins         █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  58 mins             █████████████████████████   100.00 % 
+Windows                  1 hr 5 mins         █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -127,7 +127,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 25/08/2026 01:17:11 UTC
+ Last Updated on 26/08/2026 01:19:43 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
