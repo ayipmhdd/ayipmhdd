@@ -102,18 +102,20 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-JavaScript               2 hrs 55 mins       █████████████████████████   98.52 % 
-HTML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.94 % 
-CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 % 
+JavaScript               2 hrs 31 mins       ████████████████████████░   96.03 % 
+Other                    3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.30 % 
+HTML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   01.06 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
 
 🔥 Editors: 
-Antigravity IDE          2 hrs 58 mins       █████████████████████████   100.00 % 
+Antigravity IDE          2 hrs 37 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-portofolio               2 hrs 58 mins       █████████████████████████   100.00 % 
+portofolio               2 hrs 34 mins       ████████████████████████░   97.70 % 
+beler                    3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.30 % 
 
 💻 Operating System: 
-Windows                  2 hrs 58 mins       █████████████████████████   100.00 % 
+Windows                  2 hrs 37 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -129,7 +131,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 31/08/2026 04:08:15 UTC
+ Last Updated on 01/09/2026 03:56:37 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
