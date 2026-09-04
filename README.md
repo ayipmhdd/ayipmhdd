@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-94%20hrs%2046%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-97%20hrs%2048%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,16 +102,19 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    3 mins              █████████████████████████   100.00 % 
+JavaScript               2 hrs 42 mins       ██████████████████████░░░   87.50 % 
+CSS                      19 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.54 % 
+Other                    3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.96 % 
 
 🔥 Editors: 
-Antigravity IDE          3 mins              █████████████████████████   100.00 % 
+Antigravity IDE          3 hrs 5 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-beler                    3 mins              █████████████████████████   100.00 % 
+portofolio               3 hrs 2 mins        █████████████████████████   98.04 % 
+beler                    3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.96 % 
 
 💻 Operating System: 
-Windows                  3 mins              █████████████████████████   100.00 % 
+Windows                  3 hrs 5 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -127,7 +130,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 03/09/2026 03:18:45 UTC
+ Last Updated on 04/09/2026 03:16:46 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
