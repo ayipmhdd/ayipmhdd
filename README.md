@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-100%20hrs%2018%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-100%20hrs%2024%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,23 +102,24 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-JavaScript               3 hrs 14 mins       █████████████░░░░░░░░░░░░   53.83 % 
-Dart                     1 hr 28 mins        ██████░░░░░░░░░░░░░░░░░░░   24.63 % 
-PHP                      29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.19 % 
-Other                    28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.93 % 
-CSS                      19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.42 % 
+JavaScript               3 hrs 14 mins       █████████████░░░░░░░░░░░░   52.91 % 
+Dart                     1 hr 33 mins        ██████░░░░░░░░░░░░░░░░░░░   25.48 % 
+PHP                      31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.48 % 
+Other                    28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.79 % 
+CSS                      19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.33 % 
 
 🔥 Editors: 
-Antigravity IDE          6 hrs               █████████████████████████   100.00 % 
+Antigravity IDE          6 hrs 7 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-portofolio               3 hrs 33 mins       ███████████████░░░░░░░░░░   59.25 % 
-mobile-dua               1 hr 28 mins        ██████░░░░░░░░░░░░░░░░░░░   24.63 % 
-SIKANDI-Skrining-Kecemasa29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.19 % 
-beler                    28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.93 % 
+portofolio               3 hrs 33 mins       ███████████████░░░░░░░░░░   58.24 % 
+mobile-dua               1 hr 28 mins        ██████░░░░░░░░░░░░░░░░░░░   24.21 % 
+SIKANDI-Skrining-Kecemasa31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.48 % 
+beler                    28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.79 % 
+PerisAI                  4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.27 % 
 
 💻 Operating System: 
-Windows                  6 hrs               █████████████████████████   100.00 % 
+Windows                  6 hrs 7 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -134,7 +135,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 06/09/2026 03:19:24 UTC
+ Last Updated on 07/09/2026 03:18:01 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
