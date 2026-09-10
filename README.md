@@ -73,26 +73,26 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-106%20hrs%2027%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-109%20hrs%2020%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.62 % 
-🌆 Daytime                35 commits          █████░░░░░░░░░░░░░░░░░░░░   18.13 % 
-🌃 Evening                101 commits         █████████████░░░░░░░░░░░░   52.33 % 
-🌙 Night                  23 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.92 % 
+🌞 Morning                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.53 % 
+🌆 Daytime                35 commits          █████░░░░░░░░░░░░░░░░░░░░   18.04 % 
+🌃 Evening                102 commits         █████████████░░░░░░░░░░░░   52.58 % 
+🌙 Night                  23 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.86 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   52 commits          ███████░░░░░░░░░░░░░░░░░░   26.94 % 
-Tuesday                  34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.62 % 
-Wednesday                27 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.99 % 
-Thursday                 6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.11 % 
-Friday                   16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.29 % 
-Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.84 % 
-Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   20.21 % 
+Monday                   52 commits          ███████░░░░░░░░░░░░░░░░░░   26.80 % 
+Tuesday                  34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.53 % 
+Wednesday                28 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.43 % 
+Thursday                 6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.09 % 
+Friday                   16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.25 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.79 % 
+Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   20.10 % 
 ```
 
 
@@ -102,40 +102,40 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     7 hrs 29 mins       ███████████████░░░░░░░░░░   61.96 % 
-JavaScript               3 hrs 14 mins       ███████░░░░░░░░░░░░░░░░░░   26.76 % 
-PHP                      31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
-Other                    24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.44 % 
-CSS                      19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.70 % 
+Dart                     10 hrs 18 mins      █████████████████░░░░░░░░   68.73 % 
+JavaScript               3 hrs 14 mins       █████░░░░░░░░░░░░░░░░░░░░   21.59 % 
+PHP                      31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 % 
+Other                    24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
+CSS                      19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.17 % 
 
 🔥 Editors: 
-Antigravity IDE          12 hrs 5 mins       █████████████████████████   100.00 % 
+Antigravity IDE          14 hrs 59 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-PerisAI                  6 hrs 7 mins        █████████████░░░░░░░░░░░░   50.56 % 
-portofolio               3 hrs 33 mins       ███████░░░░░░░░░░░░░░░░░░   29.46 % 
-mobile-dua               1 hr 28 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.25 % 
-SIKANDI-Skrining-Kecemasa31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
-beler                    24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.44 % 
+PerisAI                  6 hrs 7 mins        ██████████░░░░░░░░░░░░░░░   40.80 % 
+portofolio               3 hrs 33 mins       ██████░░░░░░░░░░░░░░░░░░░   23.77 % 
+mobile-dua               2 hrs 20 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.60 % 
+product_catalog          2 hrs 2 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.60 % 
+SIKANDI-Skrining-Kecemasa31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 % 
 
 💻 Operating System: 
-Windows                  12 hrs 5 mins       █████████████████████████   100.00 % 
+Windows                  14 hrs 59 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
 
 ```text
-Blade                    8 repos             ███████████░░░░░░░░░░░░░░   44.44 % 
-JavaScript               5 repos             ███████░░░░░░░░░░░░░░░░░░   27.78 % 
-TypeScript               2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-Dart                     2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
+Blade                    8 repos             ███████████░░░░░░░░░░░░░░   42.11 % 
+JavaScript               5 repos             ███████░░░░░░░░░░░░░░░░░░   26.32 % 
+Dart                     3 repos             ████░░░░░░░░░░░░░░░░░░░░░   15.79 % 
+TypeScript               2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
+PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
 ```
 
 
 
 
- Last Updated on 09/09/2026 03:28:53 UTC
+ Last Updated on 10/09/2026 03:27:09 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
