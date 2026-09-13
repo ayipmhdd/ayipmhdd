@@ -102,24 +102,24 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     10 hrs 16 mins      ███████████████████████░░   91.35 % 
-PHP                      31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
-Python                   13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.05 % 
-XML                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.78 % 
-YAML                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.78 % 
+Dart                     10 hrs 16 mins      ████████████████████████░   95.54 % 
+Python                   13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.15 % 
+XML                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.82 % 
+YAML                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.81 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.44 % 
 
 🔥 Editors: 
-Antigravity IDE          11 hrs 14 mins      █████████████████████████   100.00 % 
+Antigravity IDE          10 hrs 45 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-PerisAI                  7 hrs 46 mins       █████████████████░░░░░░░░   69.08 % 
-product_catalog          2 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   18.13 % 
-mobile-dua               51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.62 % 
-SIKANDI-Skrining-Kecemasa31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
-flutter                  3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
+PerisAI                  7 hrs 46 mins       ██████████████████░░░░░░░   72.24 % 
+product_catalog          2 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   18.96 % 
+mobile-dua               51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.97 % 
+flutter                  3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 % 
+SIKANDI-Skrining-Kecemasa1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 % 
 
 💻 Operating System: 
-Windows                  11 hrs 14 mins      █████████████████████████   100.00 % 
+Windows                  10 hrs 45 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -135,7 +135,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 12/09/2026 03:29:36 UTC
+ Last Updated on 13/09/2026 03:35:37 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
