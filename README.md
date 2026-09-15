@@ -102,23 +102,22 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     10 hrs 8 mins       ████████████████████████░   95.72 % 
-Python                   13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.18 % 
-XML                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.83 % 
-YAML                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.82 % 
-JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 % 
+Dart                     9 hrs 28 mins       ████████████████████████░   96.43 % 
+Python                   10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.80 % 
+YAML                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
+XML                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
 
 🔥 Editors: 
-Antigravity IDE          10 hrs 35 mins      █████████████████████████   100.00 % 
+Antigravity IDE          9 hrs 49 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-PerisAI                  7 hrs 37 mins       ██████████████████░░░░░░░   72.06 % 
-product_catalog          2 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   19.26 % 
-mobile-dua               51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.09 % 
-flutter                  3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.59 % 
+PerisAI                  6 hrs 52 mins       █████████████████░░░░░░░░   69.90 % 
+product_catalog          2 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   20.75 % 
+mobile-dua               51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 % 
+flutter                  3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 % 
 
 💻 Operating System: 
-Windows                  10 hrs 35 mins      █████████████████████████   100.00 % 
+Windows                  9 hrs 49 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -134,7 +133,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 14/09/2026 03:45:22 UTC
+ Last Updated on 15/09/2026 03:46:01 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
