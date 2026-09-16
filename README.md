@@ -102,22 +102,22 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     9 hrs 28 mins       ████████████████████████░   96.43 % 
-Python                   10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.80 % 
-YAML                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
-XML                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
+Dart                     4 hrs 11 mins       ███████████████████████░░   92.27 % 
+Python                   10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.89 % 
+YAML                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.92 % 
+XML                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.92 % 
 
 🔥 Editors: 
-Antigravity IDE          9 hrs 49 mins       █████████████████████████   100.00 % 
+Antigravity IDE          4 hrs 32 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-PerisAI                  6 hrs 52 mins       █████████████████░░░░░░░░   69.90 % 
-product_catalog          2 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   20.75 % 
-mobile-dua               51 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 % 
-flutter                  3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 % 
+product_catalog          2 hrs 2 mins        ███████████░░░░░░░░░░░░░░   44.94 % 
+PerisAI                  1 hr 34 mins        █████████░░░░░░░░░░░░░░░░   34.81 % 
+mobile-dua               51 mins             █████░░░░░░░░░░░░░░░░░░░░   18.88 % 
+flutter                  3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
 
 💻 Operating System: 
-Windows                  9 hrs 49 mins       █████████████████████████   100.00 % 
+Windows                  4 hrs 32 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -133,7 +133,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 15/09/2026 03:46:01 UTC
+ Last Updated on 16/09/2026 03:42:39 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
