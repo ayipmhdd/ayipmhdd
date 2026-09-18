@@ -73,26 +73,26 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-110%20hrs%2059%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-112%20hrs%201%20min-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.44 % 
-🌆 Daytime                35 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.95 % 
-🌃 Evening                103 commits         █████████████░░░░░░░░░░░░   52.82 % 
-🌙 Night                  23 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.79 % 
+🌞 Morning                35 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.50 % 
+🌆 Daytime                35 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.50 % 
+🌃 Evening                107 commits         █████████████░░░░░░░░░░░░   53.50 % 
+🌙 Night                  23 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.50 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   52 commits          ███████░░░░░░░░░░░░░░░░░░   26.67 % 
-Tuesday                  34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.44 % 
-Wednesday                28 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.36 % 
-Thursday                 7 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.59 % 
-Friday                   16 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.21 % 
-Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.74 % 
-Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+Monday                   52 commits          ██████░░░░░░░░░░░░░░░░░░░   26.00 % 
+Tuesday                  34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.00 % 
+Wednesday                28 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.00 % 
+Thursday                 11 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.50 % 
+Friday                   17 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.50 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.50 % 
+Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   19.50 % 
 ```
 
 
@@ -102,35 +102,35 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     1 hr 22 mins        █████████████████████░░░░   83.94 % 
-Python                   10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.76 % 
-XML                      5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.30 % 
+TypeScript               57 mins             ██████████████████████░░░   88.45 % 
+Other                    3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.19 % 
+CSS                      2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 % 
+Markdown                 2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.11 % 
 
 🔥 Editors: 
-Antigravity IDE          1 hr 38 mins        █████████████████████████   100.00 % 
+Antigravity IDE          1 hr 5 mins         █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-PerisAI                  1 hr 34 mins        ████████████████████████░   96.21 % 
-flutter                  3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 % 
+Jalan-Aman               1 hr 5 mins         █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  1 hr 38 mins        █████████████████████████   100.00 % 
+Windows                  1 hr 5 mins         █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
 
 ```text
-Blade                    8 repos             ██████████░░░░░░░░░░░░░░░   40.00 % 
-JavaScript               6 repos             ████████░░░░░░░░░░░░░░░░░   30.00 % 
-Dart                     3 repos             ████░░░░░░░░░░░░░░░░░░░░░   15.00 % 
-TypeScript               2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
-PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+Blade                    8 repos             ██████████░░░░░░░░░░░░░░░   38.10 % 
+JavaScript               6 repos             ███████░░░░░░░░░░░░░░░░░░   28.57 % 
+TypeScript               3 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
+Dart                     3 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
+PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
 ```
 
 
 
 
- Last Updated on 17/09/2026 03:47:53 UTC
+ Last Updated on 18/09/2026 03:34:57 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
