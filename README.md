@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-112%20hrs%201%20min-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-112%20hrs%2026%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,19 +102,21 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               57 mins             ██████████████████████░░░   88.45 % 
-Other                    3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.19 % 
-CSS                      2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 % 
-Markdown                 2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.11 % 
+TypeScript               1 hr 8 mins         ██████████████░░░░░░░░░░░   56.01 % 
+Other                    34 mins             ███████░░░░░░░░░░░░░░░░░░   28.57 % 
+Dart                     14 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
+CSS                      2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.75 % 
+Markdown                 2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.67 % 
 
 🔥 Editors: 
-Antigravity IDE          1 hr 5 mins         █████████████████████████   100.00 % 
+Antigravity IDE          2 hrs 1 min         █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Jalan-Aman               1 hr 5 mins         █████████████████████████   100.00 % 
+Jalan-Aman               1 hr 47 mins        ██████████████████████░░░   88.00 % 
+PerisAI                  14 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
 
 💻 Operating System: 
-Windows                  1 hr 5 mins         █████████████████████████   100.00 % 
+Windows                  2 hrs 1 min         █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -130,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 18/09/2026 03:34:57 UTC
+ Last Updated on 19/09/2026 03:31:34 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
