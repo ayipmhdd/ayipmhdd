@@ -102,22 +102,21 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     2 hrs 25 mins       █████████████░░░░░░░░░░░░   52.54 % 
-TypeScript               1 hr 8 mins         ██████░░░░░░░░░░░░░░░░░░░   24.62 % 
-Other                    36 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
-YAML                     22 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.04 % 
-CSS                      2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.77 % 
+Dart                     2 hrs 25 mins       █████████████████░░░░░░░░   68.77 % 
+Other                    33 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.81 % 
+YAML                     22 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.52 % 
+TypeScript               10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.91 % 
 
 🔥 Editors: 
-Antigravity IDE          4 hrs 37 mins       █████████████████████████   100.00 % 
+Antigravity IDE          3 hrs 32 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-product_catalog          2 hrs 33 mins       ██████████████░░░░░░░░░░░   55.30 % 
-Jalan-Aman               1 hr 49 mins        ██████████░░░░░░░░░░░░░░░   39.42 % 
-PerisAI                  14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.27 % 
+product_catalog          2 hrs 33 mins       ██████████████████░░░░░░░   72.38 % 
+Jalan-Aman               43 mins             █████░░░░░░░░░░░░░░░░░░░░   20.71 % 
+PerisAI                  14 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
 
 💻 Operating System: 
-Windows                  4 hrs 37 mins       █████████████████████████   100.00 % 
+Windows                  3 hrs 32 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -133,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 24/09/2026 03:31:53 UTC
+ Last Updated on 25/09/2026 03:48:45 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
