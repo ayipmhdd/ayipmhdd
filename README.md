@@ -120,17 +120,17 @@ Windows                  2 hrs 35 mins       ███████████�
 **I Mostly Code in Blade** 
 
 ```text
-Blade                    8 repos             ██████████░░░░░░░░░░░░░░░   38.10 % 
-JavaScript               6 repos             ███████░░░░░░░░░░░░░░░░░░   28.57 % 
-TypeScript               3 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
-Dart                     3 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
-PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
+Blade                    8 repos             █████████░░░░░░░░░░░░░░░░   36.36 % 
+JavaScript               6 repos             ███████░░░░░░░░░░░░░░░░░░   27.27 % 
+TypeScript               3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.64 % 
+Dart                     3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.64 % 
+Go                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
 ```
 
 
 
 
- Last Updated on 27/09/2026 04:04:39 UTC
+ Last Updated on 28/09/2026 04:05:46 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
