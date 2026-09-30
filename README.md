@@ -102,22 +102,17 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     1 hr 58 mins        █████████████████████░░░░   82.34 % 
-YAML                     22 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.50 % 
-Other                    2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
-Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.51 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 % 
+Bash                     0 secs              ██████████████████░░░░░░░   71.06 % 
+Git Config               0 secs              ███████░░░░░░░░░░░░░░░░░░   28.94 % 
 
 🔥 Editors: 
-Antigravity IDE          2 hrs 23 mins       █████████████████████████   100.00 % 
+Antigravity IDE          1 min               █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-product_catalog          2 hrs 20 mins       ████████████████████████░   97.84 % 
-Jalan-Aman               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
-MBG                      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.72 % 
+MBG                      1 min               █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  2 hrs 23 mins       █████████████████████████   100.00 % 
+Windows                  1 min               █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -133,7 +128,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 29/09/2026 04:38:48 UTC
+ Last Updated on 30/09/2026 04:22:42 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
