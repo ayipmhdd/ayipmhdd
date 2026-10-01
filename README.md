@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-115%20hrs%201%20min-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-115%20hrs%2022%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,17 +102,22 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Bash                     0 secs              ██████████████████░░░░░░░   71.06 % 
-Git Config               0 secs              ███████░░░░░░░░░░░░░░░░░░   28.94 % 
+Other                    31 mins             ███████████████░░░░░░░░░░   58.30 % 
+JSON                     9 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.43 % 
+TypeScript               8 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.54 % 
+Dart                     3 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.82 % 
+Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.36 % 
 
 🔥 Editors: 
-Antigravity IDE          1 min               █████████████████████████   100.00 % 
+Antigravity IDE          54 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-MBG                      1 min               █████████████████████████   100.00 % 
+Ayipipiiie               31 mins             ███████████████░░░░░░░░░░   58.30 % 
+PerisAI                  13 mins             ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
+MBG                      9 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
 
 💻 Operating System: 
-Windows                  1 min               █████████████████████████   100.00 % 
+Windows                  54 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -128,7 +133,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 30/09/2026 04:22:42 UTC
+ Last Updated on 01/10/2026 04:34:27 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
