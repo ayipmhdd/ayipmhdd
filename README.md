@@ -73,26 +73,26 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-115%20hrs%2022%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-116%20hrs%2022%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                35 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.50 % 
-🌆 Daytime                35 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.50 % 
-🌃 Evening                107 commits         █████████████░░░░░░░░░░░░   53.50 % 
-🌙 Night                  23 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.50 % 
+🌞 Morning                35 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
+🌆 Daytime                35 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
+🌃 Evening                108 commits         █████████████░░░░░░░░░░░░   53.20 % 
+🌙 Night                  25 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.32 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   52 commits          ██████░░░░░░░░░░░░░░░░░░░   26.00 % 
-Tuesday                  34 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.00 % 
-Wednesday                28 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.00 % 
-Thursday                 11 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.50 % 
-Friday                   17 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.50 % 
-Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.50 % 
-Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   19.50 % 
+Monday                   54 commits          ███████░░░░░░░░░░░░░░░░░░   26.60 % 
+Tuesday                  34 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.75 % 
+Wednesday                28 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.79 % 
+Thursday                 12 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.91 % 
+Friday                   17 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.36 % 
+Sunday                   39 commits          █████░░░░░░░░░░░░░░░░░░░░   19.21 % 
 ```
 
 
@@ -102,22 +102,22 @@ Sunday                   39 commits          █████░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    31 mins             ███████████████░░░░░░░░░░   58.30 % 
-JSON                     9 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.43 % 
-TypeScript               8 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.54 % 
-Dart                     3 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.82 % 
-Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.36 % 
+TypeScript               55 mins             ████████████░░░░░░░░░░░░░   48.63 % 
+Other                    31 mins             ███████░░░░░░░░░░░░░░░░░░   27.71 % 
+JSON                     13 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.41 % 
+Dart                     8 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.82 % 
+JavaScript               4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 % 
 
 🔥 Editors: 
-Antigravity IDE          54 mins             █████████████████████████   100.00 % 
+Antigravity IDE          1 hr 53 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Ayipipiiie               31 mins             ███████████████░░░░░░░░░░   58.30 % 
-PerisAI                  13 mins             ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
-MBG                      9 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
+MBG                      1 hr 4 mins         ██████████████░░░░░░░░░░░   56.18 % 
+Ayipipiiie               31 mins             ███████░░░░░░░░░░░░░░░░░░   27.71 % 
+PerisAI                  18 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.11 % 
 
 💻 Operating System: 
-Windows                  54 mins             █████████████████████████   100.00 % 
+Windows                  1 hr 53 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Blade** 
@@ -133,7 +133,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 04/10/2026 04:41:19 UTC
+ Last Updated on 05/10/2026 04:29:01 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
