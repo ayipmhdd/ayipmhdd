@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-124%20hrs%2030%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-125%20hrs%2043%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,23 +102,23 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               4 hrs 23 mins       █████████░░░░░░░░░░░░░░░░   35.99 % 
-JavaScript               3 hrs 50 mins       ████████░░░░░░░░░░░░░░░░░   31.55 % 
-Other                    39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.40 % 
-HTML                     35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.89 % 
-Go                       34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.78 % 
+TypeScript               5 hrs 23 mins       ██████████░░░░░░░░░░░░░░░   40.25 % 
+JavaScript               3 hrs 50 mins       ███████░░░░░░░░░░░░░░░░░░   28.67 % 
+Other                    39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.91 % 
+Go                       38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.83 % 
+HTML                     35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.44 % 
 
 🔥 Editors: 
-Antigravity IDE          12 hrs 11 mins      █████████████████████████   100.00 % 
+Antigravity IDE          13 hrs 24 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas-app               6 hrs 12 mins       █████████████░░░░░░░░░░░░   50.90 % 
-MBG                      5 hrs 44 mins       ████████████░░░░░░░░░░░░░   47.13 % 
-Unknown Project          8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.20 % 
-PerisAI                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.78 % 
+MBG                      6 hrs 58 mins       █████████████░░░░░░░░░░░░   51.95 % 
+canvas-app               6 hrs 12 mins       ████████████░░░░░░░░░░░░░   46.25 % 
+Unknown Project          8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.09 % 
+PerisAI                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.71 % 
 
 💻 Operating System: 
-Windows                  12 hrs 11 mins      █████████████████████████   100.00 % 
+Windows                  13 hrs 24 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -134,7 +134,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 08/10/2026 04:54:00 UTC
+ Last Updated on 09/10/2026 04:56:57 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
