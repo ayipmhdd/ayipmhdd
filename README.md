@@ -102,24 +102,23 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               4 hrs 36 mins       █████████░░░░░░░░░░░░░░░░   36.10 % 
-JavaScript               3 hrs 46 mins       ███████░░░░░░░░░░░░░░░░░░   29.56 % 
-Other                    39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.15 % 
-Go                       38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.06 % 
-HTML                     35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.66 % 
+TypeScript               3 hrs 53 mins       ████████████░░░░░░░░░░░░░   49.92 % 
+JavaScript               1 hr 2 mins         ███░░░░░░░░░░░░░░░░░░░░░░   13.26 % 
+Go                       38 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.29 % 
+Markdown                 24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.17 % 
+Dart                     20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.28 % 
 
 🔥 Editors: 
-Antigravity IDE          12 hrs 47 mins      █████████████████████████   100.00 % 
+Antigravity IDE          7 hrs 48 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas-app               6 hrs 12 mins       ████████████░░░░░░░░░░░░░   48.53 % 
-MBG                      6 hrs 3 mins        ████████████░░░░░░░░░░░░░   47.39 % 
-auth_directus            21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.87 % 
-Unknown Project          8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.14 % 
-PerisAI                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
+MBG                      5 hrs 12 mins       █████████████████░░░░░░░░   66.76 % 
+canvas-app               2 hrs 4 mins        ███████░░░░░░░░░░░░░░░░░░   26.67 % 
+auth_directus            21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.69 % 
+Unknown Project          8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.87 % 
 
 💻 Operating System: 
-Windows                  12 hrs 47 mins      █████████████████████████   100.00 % 
+Windows                  7 hrs 48 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -135,7 +134,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 12/10/2026 04:43:16 UTC
+ Last Updated on 13/10/2026 05:47:58 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
