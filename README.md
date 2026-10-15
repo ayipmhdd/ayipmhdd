@@ -73,26 +73,26 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-126%20hrs%205%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-127%20hrs%2038%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                36 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.59 % 
-🌆 Daytime                41 commits          █████░░░░░░░░░░░░░░░░░░░░   18.89 % 
-🌃 Evening                115 commits         █████████████░░░░░░░░░░░░   53.00 % 
-🌙 Night                  25 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.52 % 
+🌞 Morning                37 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.97 % 
+🌆 Daytime                41 commits          █████░░░░░░░░░░░░░░░░░░░░   18.81 % 
+🌃 Evening                115 commits         █████████████░░░░░░░░░░░░   52.75 % 
+🌙 Night                  25 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.47 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   55 commits          ██████░░░░░░░░░░░░░░░░░░░   25.35 % 
-Tuesday                  37 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.05 % 
-Wednesday                37 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.05 % 
-Thursday                 13 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.99 % 
-Friday                   17 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.83 % 
-Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.76 % 
-Sunday                   39 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.97 % 
+Monday                   55 commits          ██████░░░░░░░░░░░░░░░░░░░   25.23 % 
+Tuesday                  37 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.97 % 
+Wednesday                37 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.97 % 
+Thursday                 14 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.42 % 
+Friday                   17 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.80 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 % 
+Sunday                   39 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.89 % 
 ```
 
 
@@ -102,23 +102,21 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               3 hrs 53 mins       █████████████████░░░░░░░░   67.40 % 
-Go                       38 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.19 % 
-Dart                     20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.78 % 
-JSON                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
-Bash                     9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.80 % 
+Dart                     1 hr 24 mins        ███████████░░░░░░░░░░░░░░   43.31 % 
+TypeScript               1 hr                ████████░░░░░░░░░░░░░░░░░   31.15 % 
+Python                   17 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.85 % 
+Text                     10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.35 % 
+Other                    6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 % 
 
 🔥 Editors: 
-Antigravity IDE          5 hrs 47 mins       █████████████████████████   100.00 % 
+Antigravity IDE          3 hrs 14 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-MBG                      5 hrs 12 mins       ███████████████████████░░   90.13 % 
-auth_directus            21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.34 % 
-Unknown Project          8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.53 % 
-canvas-app               3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.00 % 
+auth_directus            2 hrs 1 min         ████████████████░░░░░░░░░   62.34 % 
+MBG                      1 hr 13 mins        █████████░░░░░░░░░░░░░░░░   37.66 % 
 
 💻 Operating System: 
-Windows                  5 hrs 47 mins       █████████████████████████   100.00 % 
+Windows                  3 hrs 14 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -134,7 +132,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 14/10/2026 03:51:21 UTC
+ Last Updated on 15/10/2026 03:33:00 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
