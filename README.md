@@ -125,17 +125,17 @@ Windows                  18 hrs 48 mins      ███████████�
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               8 repos             █████████░░░░░░░░░░░░░░░░   34.78 % 
-Blade                    8 repos             █████████░░░░░░░░░░░░░░░░   34.78 % 
-TypeScript               3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
-Dart                     3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
-PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 % 
+JavaScript               8 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
+Blade                    8 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
+TypeScript               4 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
+Dart                     3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
+PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
 ```
 
 
 
 
- Last Updated on 20/10/2026 03:46:22 UTC
+ Last Updated on 21/10/2026 03:37:11 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
