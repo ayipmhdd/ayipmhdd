@@ -102,24 +102,19 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-JavaScript               2 hrs 43 mins       ██████████░░░░░░░░░░░░░░░   38.18 % 
-Go                       49 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.55 % 
-Python                   47 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.01 % 
-Markdown                 28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.72 % 
-HTML                     28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.62 % 
+Dart                     0 secs              ██████████████░░░░░░░░░░░   55.08 % 
+Text                     0 secs              ████████░░░░░░░░░░░░░░░░░   30.42 % 
+Python                   0 secs              ████░░░░░░░░░░░░░░░░░░░░░   14.50 % 
 
 🔥 Editors: 
-Antigravity IDE          7 hrs 8 mins        █████████████████████████   100.00 % 
+Antigravity IDE          0 secs              █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-MBG                      6 hrs 45 mins       ████████████████████████░   94.79 % 
-mpp                      18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.26 % 
-Unknown Project          3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.88 % 
-PerisAI                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 % 
-Dermayu-Backend          0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
+PerisAI                  0 secs              ██████████████░░░░░░░░░░░   55.08 % 
+Dermayu-Backend          0 secs              ███████████░░░░░░░░░░░░░░   44.92 % 
 
 💻 Operating System: 
-Windows                  7 hrs 8 mins        █████████████████████████   100.00 % 
+Windows                  0 secs              █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -135,7 +130,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 23/10/2026 03:41:52 UTC
+ Last Updated on 24/10/2026 03:36:02 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
