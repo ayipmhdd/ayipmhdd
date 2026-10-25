@@ -102,16 +102,14 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     0 secs              ██████████████░░░░░░░░░░░   55.08 % 
-Text                     0 secs              ████████░░░░░░░░░░░░░░░░░   30.42 % 
-Python                   0 secs              ████░░░░░░░░░░░░░░░░░░░░░   14.50 % 
+Text                     0 secs              █████████████████░░░░░░░░   67.71 % 
+Python                   0 secs              ████████░░░░░░░░░░░░░░░░░   32.29 % 
 
 🔥 Editors: 
 Antigravity IDE          0 secs              █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-PerisAI                  0 secs              ██████████████░░░░░░░░░░░   55.08 % 
-Dermayu-Backend          0 secs              ███████████░░░░░░░░░░░░░░   44.92 % 
+Dermayu-Backend          0 secs              █████████████████████████   100.00 % 
 
 💻 Operating System: 
 Windows                  0 secs              █████████████████████████   100.00 % 
@@ -130,7 +128,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 24/10/2026 03:36:02 UTC
+ Last Updated on 25/10/2026 03:33:10 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
