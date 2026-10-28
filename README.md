@@ -102,17 +102,20 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Text                     0 secs              █████████████████░░░░░░░░   67.71 % 
-Python                   0 secs              ████████░░░░░░░░░░░░░░░░░   32.29 % 
+Other                    8 mins              ███████████████████████░░   92.38 % 
+Markdown                 0 secs              ██░░░░░░░░░░░░░░░░░░░░░░░   06.07 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.05 % 
+Python                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.50 % 
 
 🔥 Editors: 
-Antigravity IDE          0 secs              █████████████████████████   100.00 % 
+Antigravity IDE          8 mins              █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Dermayu-Backend          0 secs              █████████████████████████   100.00 % 
+miwell                   8 mins              █████████████████████████   98.45 % 
+Dermayu-Backend          0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.55 % 
 
 💻 Operating System: 
-Windows                  0 secs              █████████████████████████   100.00 % 
+Windows                  8 mins              █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -128,7 +131,7 @@ PHP                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 27/10/2026 04:00:41 UTC
+ Last Updated on 28/10/2026 04:25:29 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
