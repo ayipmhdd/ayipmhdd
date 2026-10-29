@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-144%20hrs%2046%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-146%20hrs%203%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -102,36 +102,36 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    8 mins              ███████████████████████░░   92.38 % 
-Markdown                 0 secs              ██░░░░░░░░░░░░░░░░░░░░░░░   06.07 % 
-Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.05 % 
-Python                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.50 % 
+TypeScript               1 hr 5 mins         ███████████████████░░░░░░   77.06 % 
+Markdown                 11 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
+Other                    8 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.61 % 
+Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 % 
 
 🔥 Editors: 
-Antigravity IDE          8 mins              █████████████████████████   100.00 % 
+Antigravity IDE          1 hr 25 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-miwell                   8 mins              █████████████████████████   98.45 % 
-Dermayu-Backend          0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.55 % 
+miwell                   1 hr 21 mins        ████████████████████████░   95.24 % 
+MBG                      4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
 
 💻 Operating System: 
-Windows                  8 mins              █████████████████████████   100.00 % 
+Windows                  1 hr 25 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               8 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
-Blade                    8 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
-TypeScript               4 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
-Dart                     3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
-PHP                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
+JavaScript               8 repos             ████████░░░░░░░░░░░░░░░░░   32.00 % 
+Blade                    8 repos             ████████░░░░░░░░░░░░░░░░░   32.00 % 
+TypeScript               4 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.00 % 
+Dart                     3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
+HTML                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 % 
 ```
 
 
 
 
- Last Updated on 28/10/2026 04:25:29 UTC
+ Last Updated on 29/10/2026 04:43:36 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
