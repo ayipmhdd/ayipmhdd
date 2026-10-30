@@ -73,26 +73,26 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-146%20hrs%203%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-147%20hrs%2050%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                42 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.60 % 
-🌆 Daytime                42 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.60 % 
-🌃 Evening                136 commits         █████████████░░░░░░░░░░░░   53.75 % 
-🌙 Night                  33 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
+🌞 Morning                44 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.05 % 
+🌆 Daytime                42 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
+🌃 Evening                138 commits         █████████████░░░░░░░░░░░░   53.49 % 
+🌙 Night                  34 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.18 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   55 commits          █████░░░░░░░░░░░░░░░░░░░░   21.74 % 
-Tuesday                  37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.62 % 
-Wednesday                37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.62 % 
-Thursday                 29 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.46 % 
-Friday                   37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.62 % 
-Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.51 % 
-Sunday                   39 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.42 % 
+Monday                   55 commits          █████░░░░░░░░░░░░░░░░░░░░   21.32 % 
+Tuesday                  37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
+Wednesday                37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
+Thursday                 31 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.02 % 
+Friday                   40 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.50 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.36 % 
+Sunday                   39 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.12 % 
 ```
 
 
@@ -102,20 +102,22 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               1 hr 5 mins         ███████████████████░░░░░░   77.06 % 
-Markdown                 11 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
-Other                    8 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.61 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 % 
+TypeScript               2 hrs 26 mins       ███████████████████░░░░░░   75.89 % 
+Bash                     14 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.43 % 
+Python                   12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.50 % 
+Markdown                 11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.84 % 
+Other                    8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.26 % 
 
 🔥 Editors: 
-Antigravity IDE          1 hr 25 mins        █████████████████████████   100.00 % 
+Antigravity IDE          3 hrs 12 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-miwell                   1 hr 21 mins        ████████████████████████░   95.24 % 
-MBG                      4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
+Dermayu-Backend          1 hr 34 mins        ████████████░░░░░░░░░░░░░   49.13 % 
+miwell                   1 hr 33 mins        ████████████░░░░░░░░░░░░░   48.76 % 
+MBG                      4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.11 % 
 
 💻 Operating System: 
-Windows                  1 hr 25 mins        █████████████████████████   100.00 % 
+Windows                  3 hrs 12 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -131,7 +133,7 @@ HTML                     1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 29/10/2026 04:43:36 UTC
+ Last Updated on 30/10/2026 04:43:09 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
