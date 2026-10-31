@@ -73,26 +73,26 @@ Here are some ideas to get you started:
 <h3 align="center">⏳ Coding Stats & Activity</h3>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-147%20hrs%2050%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-149%20hrs%2015%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                44 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.05 % 
-🌆 Daytime                42 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
-🌃 Evening                138 commits         █████████████░░░░░░░░░░░░   53.49 % 
-🌙 Night                  34 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.18 % 
+🌞 Morning                44 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.73 % 
+🌆 Daytime                44 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.73 % 
+🌃 Evening                141 commits         █████████████░░░░░░░░░░░░   53.61 % 
+🌙 Night                  34 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.93 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   55 commits          █████░░░░░░░░░░░░░░░░░░░░   21.32 % 
-Tuesday                  37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
-Wednesday                37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
-Thursday                 31 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.02 % 
-Friday                   40 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.50 % 
-Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.36 % 
-Sunday                   39 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.12 % 
+Monday                   55 commits          █████░░░░░░░░░░░░░░░░░░░░   20.91 % 
+Tuesday                  37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.07 % 
+Wednesday                37 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.07 % 
+Thursday                 31 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.79 % 
+Friday                   45 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.11 % 
+Saturday                 19 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.22 % 
+Sunday                   39 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.83 % 
 ```
 
 
@@ -102,22 +102,22 @@ Sunday                   39 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               2 hrs 26 mins       ███████████████████░░░░░░   75.89 % 
-Bash                     14 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.43 % 
-Python                   12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.50 % 
-Markdown                 11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.84 % 
-Other                    8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.26 % 
+TypeScript               3 hrs 37 mins       ████████████████████░░░░░   78.37 % 
+Markdown                 24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.93 % 
+Bash                     14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.17 % 
+Python                   12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.52 % 
+Other                    8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.96 % 
 
 🔥 Editors: 
-Antigravity IDE          3 hrs 12 mins       █████████████████████████   100.00 % 
+Antigravity IDE          4 hrs 37 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-Dermayu-Backend          1 hr 34 mins        ████████████░░░░░░░░░░░░░   49.13 % 
-miwell                   1 hr 33 mins        ████████████░░░░░░░░░░░░░   48.76 % 
-MBG                      4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.11 % 
+Dermayu-Backend          2 hrs 59 mins       ████████████████░░░░░░░░░   64.65 % 
+miwell                   1 hr 33 mins        ████████░░░░░░░░░░░░░░░░░   33.88 % 
+MBG                      4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.47 % 
 
 💻 Operating System: 
-Windows                  3 hrs 12 mins       █████████████████████████   100.00 % 
+Windows                  4 hrs 37 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -133,7 +133,7 @@ HTML                     1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 30/10/2026 04:43:09 UTC
+ Last Updated on 31/10/2026 04:27:45 UTC
 <!--END_SECTION:waka-->
 
 <!-- 8. LATEST BLOG POSTS / ACTIVITY WORKFLOW -->
